@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-    console.log('V2');
+    console.log('V3');
     TCG.SOR.arrFakeIndicators = buildArrayContents(TCG.SOR.arrFakeIndicators, ROWCNT, COLCNT);
     drawTable(TCG.SOR.arrFakeIndicators);
 });
