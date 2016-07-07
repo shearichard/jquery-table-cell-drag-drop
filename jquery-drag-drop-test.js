@@ -59,28 +59,28 @@ function insertIntoArray(arr, thingToInsert, objTgt, tweaker, mvmntDrctn){
     var idxTgt = arr.indexOf(objTgt) + tweaker;
     var arrout =  [].concat(arr.slice(0,idxTgt), thingToInsert, arr.slice(idxTgt,arr.length));
     //
-    var idxtest0 = arr.indexOf(objTgt) + 1;
-    var arrout0 =  [].concat(arr.slice(0,idxtest0), thingToInsert, arr.slice(idxtest0,arr.length));
-    var idxtest1 = arr.indexOf(objTgt) - 1;
-    var arrout1 =  [].concat(arr.slice(0,idxtest1), thingToInsert, arr.slice(idxtest1,arr.length));
-    console.log(arr);
-    console.log(arrout);
-    console.log(arrout0);
-    console.log(arrout1);
-    //
-    if (mvmntDrctn === TCG.SOR.movementDirection.UP){
-        //debugger;
-    }
-    //
-    //var arrA = arr.slice(0);
-    //Simulates moving 4 on top of 2
-    var arrA = [1,2,3,5];
-    var thingToInsertA = 2;
-    var idxTgtA = 1;
-    var arrAout = [].concat(arrA.slice(0,idxTgtA), thingToInsertA, arrA.slice(idxTgtA,arrA.length));
-    var arrB = [1,3,4,5];
-    var idxTgtB = 2;
-    var arrBout = [].concat(arrB.slice(0,idxTgtB), thingToInsertA, arrB.slice(idxTgtB,arrB.length));
+//  var idxtest0 = arr.indexOf(objTgt) + 1;
+//  var arrout0 =  [].concat(arr.slice(0,idxtest0), thingToInsert, arr.slice(idxtest0,arr.length));
+//  var idxtest1 = arr.indexOf(objTgt) - 1;
+//  var arrout1 =  [].concat(arr.slice(0,idxtest1), thingToInsert, arr.slice(idxtest1,arr.length));
+//  console.log(arr);
+//  console.log(arrout);
+//  console.log(arrout0);
+//  console.log(arrout1);
+//  //
+//  if (mvmntDrctn === TCG.SOR.movementDirection.UP){
+//      //debugger;
+//  }
+//  //
+//  //var arrA = arr.slice(0);
+//  //Simulates moving 4 on top of 2
+//  var arrA = [1,2,3,5];
+//  var thingToInsertA = 2;
+//  var idxTgtA = 1;
+//  var arrAout = [].concat(arrA.slice(0,idxTgtA), thingToInsertA, arrA.slice(idxTgtA,arrA.length));
+//  var arrB = [1,3,4,5];
+//  var idxTgtB = 2;
+//  var arrBout = [].concat(arrB.slice(0,idxTgtB), thingToInsertA, arrB.slice(idxTgtB,arrB.length));
     //
     return arrout;
 }
